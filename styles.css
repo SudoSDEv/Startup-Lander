@@ -4,8 +4,9 @@
 }
 
 body{
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('images/adventure-altitude-background-1081111.jpg') center;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('images/adventure-altitude-background-1081111.jpg');
     background-size: cover;
+    background-position: center;
     background-attachment: fixed;
     height: 100%;
 }
