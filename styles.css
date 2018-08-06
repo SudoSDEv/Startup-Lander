@@ -1,0 +1,176 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('images/adventure-altitude-background-1081111.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    -webkit-background-size: cover;
+    -webkit-background-position: center;
+    -webkit-background-attachment: fixed;
+    -webkit-height: 100%;
+}
+
+
+
+navbar {
+    background:#F6F9F9;
+}
+
+.nav-link {
+    color:dodgerblue;
+    
+}
+
+.nav-item {
+    padding: 0 .7em;
+    font-size: 1.1em;
+    
+        border-top: 2px solid #F6F9F9;
+
+}
+
+.nav-item:hover{
+    
+    border-top: 2px solid darkgrey;
+    
+}
+
+.navbar-brand {
+    padding: .7em;
+    font-size: 1.5em;
+    cursor: default;
+            color:navy;
+
+}
+.navbar-brand:hover{
+        color:navy;
+
+}
+
+
+.navbar {
+    background: #F6F9F9;
+}
+
+.nav-bar-icon-holder {
+    width: 43px;
+    height: 40px;
+    background: #F6F9F9;
+    transition: 1s;
+    padding: 1%;
+}
+
+.nav-bar-icon-holder:hover{
+    transform: rotate(360deg);
+}
+
+`
+
+.my-icon-holder {
+    padding: 50px;
+    border: 1px solid navy;
+    transition: all 1s;
+}
+
+.my-icon-holder:hover{
+    transform: rotate(180deg);
+}
+
+.nav-bar-icon {
+    width:70%;
+    height: 5px;
+    margin: 6px;
+    background: navy;
+}
+
+.myrow {
+    padding-top: 10%;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.my-col {
+    
+}
+
+.container {
+    height: 100%;
+}
+
+.my-title {
+    font-size:  10vmin;
+    color:white;
+}
+
+.ver_line {
+/*    border-right: 1px solid lightgrey;*/
+}
+
+.row {
+    margin: 0;
+}
+
+#my-btn {
+    font-size:1.2em;
+    padding: 0 25px; 
+    border-radius: 50px;
+    transition: 1s;
+}
+
+#my-btn:hover{
+    transform: scale(1.1);
+}
+
+.my-btn-holder {
+    display:flex; justify-content:center;
+
+}
+
+
+@media only screen and (min-width: 1000px) {
+    
+   .ver_line {
+        border-right: 1px solid lightgrey;
+    }
+}
+@media only screen and (max-width: 999px){
+    
+   .myrow{
+           margin-top: 20%;
+
+        padding: 7%;
+       padding-top: 17%;
+    }
+
+    
+    .ver_line {
+    
+    padding-bottom: 10% ;
+    border-bottom: 1px solid lightgrey;
+    
+    }
+    
+    .my-btn-holder {
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    
+    #my-btn{
+        font-size: 2em;
+    }
+    
+    #my-btn:hover{
+    transform: scale(1.1);
+    }
+    
+
+
+}
